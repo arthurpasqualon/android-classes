@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Influencer List</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="confirm">Sim</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name">Nome: </string>
+    <string name="category">Categoria: </string>
+    <string name="username">Nome de Usuário: </string>
+    <string name="toast">Preencha todos os campos para prosseguir</string>
+    <string name="addInfluencer">Adicionar Influencer</string>
+    <string name="influencerName">Nome do Influencer</string>
+    <string name="influencerCategory">Categoria</string>
+    <string name="influencerUsername">username</string>
+    <string name="alertTitle">Atenção</string>
+    <string name="alertMessage">Ao confirmar você excluirá este influencer</string>
+    <string name="save">Salvar</string>
+</resources>

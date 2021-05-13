@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Influencer List</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="confirm">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Nome: </string>
+    <string name="category">Category: </string>
+    <string name="username">Username: </string>
+    <string name="toast">Fill all field before proceeding</string>
+    <string name="addInfluencer">Add Influencer</string>
+    <string name="influencerName">Influencer Name</string>
+    <string name="influencerCategory">Category</string>
+    <string name="influencerUsername">Username</string>
+    <string name="alertTitle">Attention</string>
+    <string name="alertMessage">If you press yes, you will delete this influencer</string>
+    <string name="save">Save</string>
+</resources>
