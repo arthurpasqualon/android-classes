@@ -18,7 +18,9 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,6 +31,25 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        List<String> spinnerArr =  new ArrayList<String>();
+
+        spinnerArr.add("Manhã");
+
+        spinnerArr.add("tarde");
+
+        spinnerArr.add("Noite");
+
+
+        ArrayAdapter<String> adpt = new ArrayAdapter<String>(
+                this, R.layout.support_simple_spinner_dropdown_item, spinnerArr);
+
+        adpt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Spinner spItems = (Spinner) findViewById(R.id.spShifts);
+        spItems.setAdapter(adapter);
+
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
